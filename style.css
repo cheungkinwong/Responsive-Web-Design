@@ -1,2 +1,33 @@
-body {
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+  .medium {
+    display: none;
+  }
+  .large {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+  .small {
+    display: none;
+  }
+  .large {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+  .medium {
+    display: none;
+  }
+  .small {
+    display: none;
+  }
 }
