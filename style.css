@@ -11,12 +11,15 @@
   }
   .small {
     width: 66%;
+    float: left;
   }
   .medium {
     width: 33%;
+    float: right;
   }
   .large {
     width: 100%;
+    float: left;
   }
 }
 @media only screen and (min-width: 768px) {
